@@ -1,0 +1,115 @@
+.main{
+	width:70%;
+	margin: 0px auto;
+	border: 5px solid gray;
+}
+.header{
+	width: 100%;
+	background-color: slategray;
+	text-align: center;
+	font-family: Comic Sans MS,Comic Sans,cursive;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.body{
+	font-family: Comic Sans MS,Comic Sans,cursive;
+	width: 100%;
+	display: flex;
+}
+.left-body{
+	width: 40%;
+	height: 100%;
+	background: linear-gradient(90deg, dimgray, silver) ;
+	color: white;
+}
+.left-body-1{
+	width: 125px;
+    margin: 0px auto;
+ }
+.photo {
+  margin-top: 20px;	
+  width: 125px;
+  height: 125px;
+  border-radius: 30px;
+}
+.left-body-2{
+   margin-right: 5%;
+   margin-left: 5%;
+   border-bottom: 2px solid gold;
+   text-align: center;
+   width: 90%;
+}
+.left-body-3{
+   padding-top: 17px;
+   text-decoration: underline;
+   text-align: center;
+   width: 100%;
+   font-size: 20px;
+}
+.pancake{
+   margin-top: 25px;
+   width: 70%;
+   font-size: 12px;
+   background-color: rgb(255,165,0);
+   border-radius: 8px;
+   text-align: center;
+}
+.yogurt{
+   margin-top: 5px;
+   width: 50%;
+   font-size: 12px;
+   background-color: dodgerblue;
+   border-radius: 8px;
+   text-align: center;
+}
+.icecream{
+    margin-top: 5px;
+    width: 90%;
+    font-size: 12px;
+    background-color: green;
+    border-radius: 8px;
+    text-align: center;
+}
+.dianagala{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.links li{
+	color: white;
+}
+.links{
+	font-size: 10px;
+}
+.right-body{
+	width: 60%;
+	height: 100%;
+	background-color: white;
+	color: steelblue;
+}
+.right-body-title{
+	margin: 10px auto;
+	width: 100%;
+	font-weight:  bold;
+}
+.right-body-text{
+	margin: 10px auto;
+	width: 100%;
+	font-size: 12px;
+}
+.divider{
+	border-bottom: 2px solid steelblue;
+	width: 60%;
+	margin-left: 5px;
+}
+.right-body-items li{
+	color: steelblue;
+	font-size: 12px;
+	margin: 10px auto;
+	list-style-type: none;
+	margin-left: -20px;
+}
+.right-body-items li:before{
+	content: "— ";
+}
